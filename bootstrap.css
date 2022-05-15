@@ -1,0 +1,108 @@
+html {
+    font-size: 6.25%;
+}
+body, html {
+    height: 100%;
+    background-image: url(833919.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+h1 {
+    position: absolute;
+    top: 250rem;
+    left: 0;
+    right: 0;
+    bottom: 0rem;
+    color: wheat;
+    font-family: 'Water Brush', cursive;
+    font-size: 70rem;
+    text-align: center;
+    cursor: default;    
+}
+.line {
+    position:absolute;
+    top: 520rem;
+    left: 0;
+    right: 0;
+    bottom: 0rem;
+    margin:auto;
+    height: 65rem;
+    width: 4rem;
+    background-color:blue;   
+}
+.btn {
+    position:absolute;
+    color: whitesmoke;
+    font-weight: 800;
+    border-radius: 120rem;
+    height: 65rem;
+    width: 100rem;
+    text-transform: uppercase;
+    font-family: monospace;
+    padding: 8rem 8rem;
+    font-size: 18rem;
+}
+.btn-primary {
+    background-color: blue;
+    border: 2rem solid blue;
+    transition: all;
+    transition-duration: 0.1s;
+    transition-delay: 0s;
+    transition-timing-function: linear;
+}
+.btn-primary:hover {
+    color:blue ;
+    transform: scale(1.1);
+    background-color: whitesmoke;
+    border: 2rem solid whitesmoke;
+}
+.btn-primary:active{
+    border-color: blue;
+}
+footer {
+    position: absolute;
+    top: 60rem;
+    left: 0;
+    right: 0;
+    bottom: 0rem;
+    margin:auto;
+}
+.btn1 {
+    position: absolute;
+    top: 550rem;
+    left: 40rem;
+    right: 200rem;
+    bottom: 90rem;
+    margin:auto;
+}
+.btn2 {
+    position: absolute;
+    top: 550rem;
+    left: 200rem;
+    right: 40rem;
+    bottom: 90rem;
+    margin:auto;
+}
+@media(max-width:998px){
+    h1{
+        font-size: 50rem;
+    }
+    .btn{
+        height: 60rem;
+        width: 85rem;
+        font-size: 14rem;
+        padding: 7rem 7rem
+    }
+}
+@media(max-width:768px){
+    h1{
+        font-size: 30rem;
+    }
+    .btn{
+        height: 50rem;
+        width: 70rem;
+        font-size: 10rem;
+        padding: 6rem 6rem
+    }
+}
